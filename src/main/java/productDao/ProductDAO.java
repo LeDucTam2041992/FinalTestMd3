@@ -10,7 +10,7 @@ public class ProductDAO implements IProductDAO{
 
     private String jdbcURL = "jdbc:mysql://localhost:3306/finaltest?useSSL=false";
     private String jdbcUsername = "root";
-    private String jdbcPassword = "Sakurasaoyran204";
+    private String jdbcPassword = "11111";
 
     private static final String INSERT_PRODUCT_SQL = "INSERT INTO products" + "  (name, color, description, category, price, quantity) VALUES " +
             " (?,?,?,?,?,?);";
